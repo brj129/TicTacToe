@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<div class="container">
+ <div class="row text-center">
+  <h1> Tic Tac Toe!</h1> 
+  </div>
+  <div id="game">
+<div class="row center">
+<div class="square bt bl" id="1" onclick="turn(this.id)"></div> 
+<div class="square bt" id="2" onclick="turn(this.id)"></div> 
+<div class="square bt br" id="3" onclick="turn(this.id)"></div> 
+</div>
+<div class="row center">
+<div class="square bl" id="4" onclick="turn(this.id)"></div> 
+<div class="square" id="5" onclick="turn(this.id)"></div> 
+<div class="square br" id="6" onclick="turn(this.id)"></div> 
+</div>
+  <div class="row center">
+<div class="square bb bl" id="7" onclick="turn(this.id)"></div> 
+<div class="square bb" id="8" onclick="turn(this.id)"></div> 
+<div class="square bb br" id="9" onclick="turn(this.id)"></div> 
+</div>
+   <div class="row text-center winner blink" id="winner">
+  </div>
+</div>
+  <div class="row text-center question" id="question">Do you want to be X or O? <br>
+  <button class="btn" id="X" onclick="xo(this.id)"> X </button> <button class="btn" id="O" onclick="xo(this.id)"> O </button>
+  </div>
+  </div>
