@@ -1,0 +1,111 @@
+body {
+  background-color: tan;
+}
+
+h1 {
+  font-family: 'Cuprum', sans-serif;
+  color: white;
+  font-size: 60px;
+}
+
+.btn {
+  font-size: 50px;
+}
+
+.question {
+    font-family: 'Cuprum', sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+.square {
+  float: left;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border: 3px solid black;
+  display: block;
+  overflow: hidden;
+  background-color: grey;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.bt {
+  border-top: 0;
+}
+
+.bb {
+  border-bottom: 0;
+}
+
+.br {
+  border-right: 0;
+}
+
+.bl {
+  border-left: 0;
+}
+
+.center {
+  margin: auto;
+  width: 600px;
+  border: 0px;
+  padding: 0px;
+}
+
+.winner {
+   color: red;
+  font-size: 60px; 
+  text-decoration: blink;
+  font-family: 'Cuprum', sans-serif;
+}
+
+/* @group Blink */
+
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* @end */
+
